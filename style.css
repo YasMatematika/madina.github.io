@@ -1,0 +1,99 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+
+}
+:root {
+    --bg-primary: rgb(153, 153, 58);
+    --txt-primary: black;
+    --bg-secondary: rgb(142, 129, 129);
+    --txt-secondary: rgb(22, 0, 0);
+    --icons-bg-primary: white;
+    --icons-bg-secondary: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+   
+}
+
+.wrapper {
+display: flex; 
+justify-content: center;
+height: auto;
+width: 100%;
+background-color: var(--bg-secondary);
+color: var(--txt-secondary)
+
+
+}
+
+.card {
+    border: 0px solid white;
+    padding: 20px ;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(22, 0, 0);
+    width: 200px;
+ 
+
+}
+
+.text-centre {
+text-align: center;
+
+}
+
+.icons {
+    color: var(--icons-bg-primary);
+    margin: 7px;
+
+}
+
+.btn {
+margin-top: 20px;
+cursor: pointer;
+border: none; 
+width: 80px;
+height: 40px;
+background-color: var(--bg-primary);
+box-shadow: 2px 2px 2px 2px rgb(22, 0, 0);
+
+
+
+}
+
+.btn:hover {
+    background-color: rgb(147, 55, 24);
+    color: rgb(232, 228, 239);
+    transform: rotate(2deg);
+    transition: 0.3s ease-in-out;
+}
+
+.header {
+
+display: flex; 
+justify-content: center;
+    padding: 100px ;
+    padding-top: 50px;
+    background-color: rgb(42, 122, 122);
+    display: flex;
+    padding: 20px ;
+    margin: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(22, 0, 0);
+
+}
+
+.img-content {
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
+padding-top: 20px;
+
+
+}
+
